@@ -1,0 +1,15 @@
+<h1>Editing User</h1>
+<form action="/modify/<%= @edit_user.id %>" method="post">
+  <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+  <label>First Name:</label>
+  <input type="text" name="modify_user[first_name]" placeholder="<%= @edit_user.first_name %>"/>
+  <label>Last Name:</label>
+  <input type="text" name="modify_user[last_name]" placeholder="<%= @edit_user.last_name %>"/>
+  <label>Email:</label>
+  <input type="text" name="modify_user[email]" placeholder="<%= @edit_user.email %>"/>
+  <label>Password:</label>
+  <input type="text" name="modify_user[password]" placeholder="<%= @edit_user.password %>"/>
+  <input type="submit" value="Submit" />
+
+<a href="/show/<%= @edit_user.id %>">Show</a> |
+<a href="/users">Back</a>

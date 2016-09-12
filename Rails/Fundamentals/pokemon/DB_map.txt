@@ -1,0 +1,18 @@
+Pokemon
+- name:string
+- has_many: ownerships
+- has_many: trainers, through: :ownership
+
+Ownership
+- pokemon_id
+- trainer_id
+
+Trainer
+- name:string
+- has_many :ownerships
+- has_many :pokemons, through: :ownership
+- organization_id
+
+Organization
+- name:string
+- has_many :trainers

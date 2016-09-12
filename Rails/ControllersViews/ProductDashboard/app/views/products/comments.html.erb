@@ -1,0 +1,21 @@
+<h1>All comments</h1>
+<table>
+  <thead>
+    <th>Comment</th>
+    <th>Product</th>
+  </thead>
+  <tbody>
+    <% @products.each do |product| %>
+    <% if product.comments %>
+    <% product.comments.each do |comment| %>
+    <tr>
+      <td><%= comment.comment %></td>
+      <td><%= product.name %></td>
+    </tr>
+    <% end %>
+    <% end %>
+    <% end %>
+  </tbody>
+</table>
+
+<a href="/products/index">Back</a>

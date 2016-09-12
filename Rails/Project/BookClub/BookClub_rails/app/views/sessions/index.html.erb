@@ -1,0 +1,27 @@
+<html id="main">
+
+  <div class="toplink">
+
+    <a href="/users/show/<%= session[:user_id] %>">Profile</a>|
+    <a href="/users">Friends</a>|
+    <% if current_user %>
+    <a href="/sessions/destroy">Log out</a>
+    <% end %>
+
+  </div>
+
+  <div class="leftbar">
+    <div id="profilepic">
+
+    </div>
+
+    <h4>Hi, <%= @me.first_name %></h4>
+
+  </div>
+
+  <div class="body">
+    <%= @test.first %>
+  </div>
+
+
+</html>

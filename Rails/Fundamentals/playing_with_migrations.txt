@@ -1,0 +1,322 @@
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails>rails new migration_practice
+      create
+      create  README.rdoc
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/assets/javascripts/application.js
+      create  app/assets/stylesheets/application.css
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/views/layouts/application.html.erb
+      create  app/assets/images/.keep
+      create  app/mailers/.keep
+      create  app/models/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/secrets.yml
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/session_store.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  test/fixtures
+      create  test/fixtures/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/test_helper.rb
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor/assets/javascripts
+      create  vendor/assets/javascripts/.keep
+      create  vendor/assets/stylesheets
+      create  vendor/assets/stylesheets/.keep
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/
+Fetching version metadata from https://rubygems.org/
+Fetching dependency metadata from https://rubygems.org/
+Resolving dependencies....................
+Using rake 11.2.2
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.9.0
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using pkg-config 1.1.7
+Using rack 1.6.4
+Using mime-types-data 3.2016.0521
+Using arel 6.0.3
+Using debug_inspector 0.0.2
+Using bundler 1.12.5
+Using byebug 9.0.5
+Using coffee-script-source 1.10.0
+Using execjs 2.7.0
+Using thor 0.19.1
+Using concurrent-ruby 1.0.2
+Using multi_json 1.12.1
+Using sass 3.4.22
+Using tilt 2.0.5
+Using sqlite3 1.3.11
+Using turbolinks-source 5.0.0
+Using rdoc 4.2.2
+Using tzinfo 1.2.2
+Using nokogiri 1.6.8
+Using rack-test 0.6.3
+Using mime-types 3.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 3.0.1
+Using sprockets 3.7.0
+Using turbolinks 5.0.1
+Using sdoc 0.4.1
+Using activesupport 4.2.5.2
+Using tzinfo-data 1.2016.6
+Using loofah 2.0.3
+Using mail 2.6.4
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.7
+Using activemodel 4.2.5.2
+Using jbuilder 2.6.0
+Using rails-html-sanitizer 1.0.3
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.5.2
+Using activerecord 4.2.5.2
+Using actionview 4.2.5.2
+Using actionpack 4.2.5.2
+Using actionmailer 4.2.5.2
+Using railties 4.2.5.2
+Using sprockets-rails 3.1.1
+Using coffee-rails 4.1.1
+Using jquery-rails 4.1.1
+Using rails 4.2.5.2
+Using sass-rails 5.0.6
+Using web-console 2.3.0
+Bundle complete! 12 Gemfile dependencies, 57 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails>rails g model migration users_table
+Usage:
+  rails new APP_PATH [options]
+
+Options:
+  -r, [--ruby=PATH]                                      # Path to the Ruby binary of your choice
+                                                         # Default: C:/RailsInstaller/Ruby2.2.0/bin/ruby.exe
+  -m, [--template=TEMPLATE]                              # Path to some application template (can be a filesystem path or URL)
+      [--skip-gemfile], [--no-skip-gemfile]              # Don't create a Gemfile
+  -B, [--skip-bundle], [--no-skip-bundle]                # Don't run bundle install
+  -G, [--skip-git], [--no-skip-git]                      # Skip .gitignore file
+      [--skip-keeps], [--no-skip-keeps]                  # Skip source control .keep files
+  -O, [--skip-active-record], [--no-skip-active-record]  # Skip Active Record files
+  -S, [--skip-sprockets], [--no-skip-sprockets]          # Skip Sprockets files
+      [--skip-spring], [--no-skip-spring]                # Don't install Spring application preloader
+  -d, [--database=DATABASE]                              # Preconfigure for selected database (options: mysql/oracle/postgresql/sqlite3/frontbase/ibm_db/sqlserver/jdbcmysql/jdbcsqlite3/jdbcpostgresql/jdbc)
+                                                         # Default: sqlite3
+  -j, [--javascript=JAVASCRIPT]                          # Preconfigure for selected JavaScript library
+                                                         # Default: jquery
+  -J, [--skip-javascript], [--no-skip-javascript]        # Skip JavaScript files
+      [--dev], [--no-dev]                                # Setup the application with Gemfile pointing to your Rails checkout
+      [--edge], [--no-edge]                              # Setup the application with Gemfile pointing to Rails repository
+      [--skip-turbolinks], [--no-skip-turbolinks]        # Skip turbolinks gem
+  -T, [--skip-test-unit], [--no-skip-test-unit]          # Skip Test::Unit files
+      [--rc=RC]                                          # Path to file containing extra configuration options for rails command
+      [--no-rc], [--no-no-rc]                            # Skip loading of extra configuration options from .railsrc file
+
+Runtime options:
+  -f, [--force]                    # Overwrite files that already exist
+  -p, [--pretend], [--no-pretend]  # Run but do not make any changes
+  -q, [--quiet], [--no-quiet]      # Suppress status output
+  -s, [--skip], [--no-skip]        # Skip files that already exist
+
+Rails options:
+  -h, [--help], [--no-help]        # Show this help message and quit
+  -v, [--version], [--no-version]  # Show Rails version number and quit
+
+Description:
+    The 'rails new' command creates a new Rails application with a default
+    directory structure and configuration at the path you specify.
+
+    You can specify extra command-line arguments to be used every time
+    'rails new' runs in the .railsrc configuration file in your home directory.
+
+    Note that the arguments specified in the .railsrc file don't affect the
+    defaults values shown above in this help message.
+
+Example:
+    rails new ~/Code/Ruby/weblog
+
+    This generates a skeletal Rails installation in ~/Code/Ruby/weblog.
+    See the README in the newly created application to get going.
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is 2471-CA53
+
+ Directory of C:\Users\Adam\Desktop\Mint\RUBY\Rails
+
+08/08/2016  07:27 PM    <DIR>          .
+08/08/2016  07:27 PM    <DIR>          ..
+08/05/2016  03:09 PM    <DIR>          blogs_posts_messages
+08/06/2016  03:14 PM    <DIR>          blogs_posts_messages2
+08/05/2016  09:41 PM    <DIR>          blogs_posts_messagesII
+08/08/2016  08:30 AM           242,871 blogs_posts_messagesII_scriptX.txt
+08/05/2016  09:30 PM            48,090 blogs_posts_messages_script.txt
+08/05/2016  01:46 PM    <DIR>          dojo_ninjas
+08/05/2016  03:00 PM            94,322 dojo_ninjas_scripts.txt
+08/08/2016  01:14 PM    <DIR>          friend
+08/08/2016  06:17 PM    <DIR>          friend2
+08/08/2016  01:42 PM            34,050 friends_script.txt
+08/08/2016  07:27 PM    <DIR>          migration_practice
+08/08/2016  12:29 PM            37,777 poke2.zip
+08/08/2016  12:30 PM    <DIR>          pokemon
+08/08/2016  08:38 AM    <DIR>          polymorphic
+08/08/2016  09:12 AM            33,285 polymorphic_script.txt
+08/07/2016  08:08 PM    <DIR>          solutions
+08/05/2016  09:17 AM    <DIR>          test_project
+08/05/2016  11:51 AM            52,007 test_project_cmd_script.txt
+08/05/2016  11:02 AM    <DIR>          user_login_project
+08/05/2016  11:47 AM            24,518 user_login_project_script.txt
+               8 File(s)        566,920 bytes
+              14 Dir(s)  380,867,780,608 bytes free
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails>cd migration_practice
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is 2471-CA53
+
+ Directory of C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice
+
+08/08/2016  07:27 PM    <DIR>          .
+08/08/2016  07:27 PM    <DIR>          ..
+08/08/2016  07:27 PM               474 .gitignore
+08/08/2016  07:27 PM    <DIR>          app
+08/08/2016  07:27 PM    <DIR>          bin
+08/08/2016  07:27 PM    <DIR>          config
+08/08/2016  07:27 PM               153 config.ru
+08/08/2016  07:27 PM    <DIR>          db
+08/08/2016  07:27 PM             1,497 Gemfile
+08/08/2016  07:27 PM             4,158 Gemfile.lock
+08/08/2016  07:27 PM    <DIR>          lib
+08/08/2016  07:27 PM    <DIR>          log
+08/08/2016  07:27 PM    <DIR>          public
+08/08/2016  07:27 PM               249 Rakefile
+08/08/2016  07:27 PM               478 README.rdoc
+08/08/2016  07:27 PM    <DIR>          test
+08/08/2016  07:27 PM    <DIR>          tmp
+08/08/2016  07:27 PM    <DIR>          vendor
+               6 File(s)          7,009 bytes
+              12 Dir(s)  380,867,780,608 bytes free
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice>rails g migration users_table
+      invoke  active_record
+      create    db/migrate/20160809022837_users_table.rb
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice>atom .
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice>rake db:migrate
+== 20160809022837 UsersTable: migrating =======================================
+-- create_table(:contents)
+   -> 0.0028s
+== 20160809022837 UsersTable: migrated (0.0038s) ==============================
+
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice>rails g migration update_users_name
+      invoke  active_record
+      create    db/migrate/20160809023100_update_users_name.rb
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice>rake db:migrate
+rake aborted!
+SyntaxError: C:/Users/Adam/Desktop/Mint/RUBY/Rails/migration_practice/db/migrate/20160809023100_update_users_name.rb:6: syntax error, unexpected keyword_end, expecting end-of-input
+C:in `disable_ddl_transaction'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice>rake db:migrate
+== 20160809023100 UpdateUsersName: migrating ==================================
+-- rename_table(:contents, :users)
+   -> 0.0376s
+== 20160809023100 UpdateUsersName: migrated (0.0390s) =========================
+
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice>rails g migration users_new_column_friends
+      invoke  active_record
+      create    db/migrate/20160809023236_users_new_column_friends.rb
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice>rake db:migrate
+== 20160809023236 UsersNewColumnFriends: migrating ============================
+-- add_column(:users, :friends, :string)
+   -> 0.0027s
+== 20160809023236 UsersNewColumnFriends: migrated (0.0045s) ===================
+
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice>rake db:rollback
+== 20160809023236 UsersNewColumnFriends: reverting ============================
+-- remove_column(:users, :friends, :string)
+   -> 0.0059s
+== 20160809023236 UsersNewColumnFriends: reverted (0.0567s) ===================
+
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice>rake db:migrate
+== 20160809023236 UsersNewColumnFriends: migrating ============================
+-- add_column(:users, :friends, :string)
+   -> 0.0017s
+== 20160809023236 UsersNewColumnFriends: migrated (0.0034s) ===================
+
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice>rake db:rollback
+== 20160809023236 UsersNewColumnFriends: reverting ============================
+-- remove_column(:users, :friends, :string)
+   -> 0.0106s
+== 20160809023236 UsersNewColumnFriends: reverted (0.0160s) ===================
+
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\migration_practice>

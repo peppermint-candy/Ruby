@@ -1,0 +1,656 @@
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Users\Adam>cd desktop/mint/ruby/rails
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is 2471-CA53
+
+ Directory of C:\Users\Adam\Desktop\Mint\RUBY\Rails
+
+08/08/2016  01:03 PM    <DIR>          .
+08/08/2016  01:03 PM    <DIR>          ..
+08/05/2016  03:09 PM    <DIR>          blogs_posts_messages
+08/06/2016  03:14 PM    <DIR>          blogs_posts_messages2
+08/05/2016  09:41 PM    <DIR>          blogs_posts_messagesII
+08/08/2016  08:30 AM           242,871 blogs_posts_messagesII_scriptX.txt
+08/05/2016  09:30 PM            48,090 blogs_posts_messages_script.txt
+08/05/2016  01:46 PM    <DIR>          dojo_ninjas
+08/05/2016  03:00 PM            94,322 dojo_ninjas_scripts.txt
+08/08/2016  12:29 PM            37,777 poke2.zip
+08/08/2016  12:30 PM    <DIR>          pokemon
+08/08/2016  08:38 AM    <DIR>          polymorphic
+08/08/2016  09:12 AM            33,285 polymorphic_script.txt
+08/08/2016  01:03 PM    <DIR>          selfjoin
+08/07/2016  08:08 PM    <DIR>          solutions
+08/05/2016  09:17 AM    <DIR>          test_project
+08/05/2016  11:51 AM            52,007 test_project_cmd_script.txt
+08/05/2016  11:02 AM    <DIR>          user_login_project
+08/05/2016  11:47 AM            24,518 user_login_project_script.txt
+               7 File(s)        532,870 bytes
+              12 Dir(s)  381,206,761,472 bytes free
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails>rails _4.2.5.2_ new friend
+      create
+      create  README.rdoc
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/assets/javascripts/application.js
+      create  app/assets/stylesheets/application.css
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/views/layouts/application.html.erb
+      create  app/assets/images/.keep
+      create  app/mailers/.keep
+      create  app/models/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/secrets.yml
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/session_store.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  test/fixtures
+      create  test/fixtures/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/test_helper.rb
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor/assets/javascripts
+      create  vendor/assets/javascripts/.keep
+      create  vendor/assets/stylesheets
+      create  vendor/assets/stylesheets/.keep
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/
+Fetching version metadata from https://rubygems.org/
+Fetching dependency metadata from https://rubygems.org/
+Resolving dependencies.....
+Using rake 11.2.2
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.9.0
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using pkg-config 1.1.7
+Using rack 1.6.4
+Using mime-types-data 3.2016.0521
+Using arel 6.0.3
+Using debug_inspector 0.0.2
+Using bundler 1.12.5
+Using byebug 9.0.5
+Using coffee-script-source 1.10.0
+Using execjs 2.7.0
+Using thor 0.19.1
+Using concurrent-ruby 1.0.2
+Using multi_json 1.12.1
+Using sass 3.4.22
+Using tilt 2.0.5
+Using sqlite3 1.3.11
+Using turbolinks-source 5.0.0
+Using rdoc 4.2.2
+Using tzinfo 1.2.2
+Using nokogiri 1.6.8
+Using rack-test 0.6.3
+Using mime-types 3.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 3.0.1
+Using sprockets 3.7.0
+Using turbolinks 5.0.1
+Using sdoc 0.4.1
+Using activesupport 4.2.5.2
+Using tzinfo-data 1.2016.6
+Using loofah 2.0.3
+Using mail 2.6.4
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.7
+Using activemodel 4.2.5.2
+Using jbuilder 2.6.0
+Using rails-html-sanitizer 1.0.3
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.5.2
+Using activerecord 4.2.5.2
+Using actionview 4.2.5.2
+Using actionpack 4.2.5.2
+Using actionmailer 4.2.5.2
+Using railties 4.2.5.2
+Using sprockets-rails 3.1.1
+Using coffee-rails 4.1.1
+Using jquery-rails 4.1.1
+Using rails 4.2.5.2
+Using sass-rails 5.0.6
+Using web-console 2.3.0
+Bundle complete! 12 Gemfile dependencies, 57 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is 2471-CA53
+
+ Directory of C:\Users\Adam\Desktop\Mint\RUBY\Rails
+
+08/08/2016  01:14 PM    <DIR>          .
+08/08/2016  01:14 PM    <DIR>          ..
+08/05/2016  03:09 PM    <DIR>          blogs_posts_messages
+08/06/2016  03:14 PM    <DIR>          blogs_posts_messages2
+08/05/2016  09:41 PM    <DIR>          blogs_posts_messagesII
+08/08/2016  08:30 AM           242,871 blogs_posts_messagesII_scriptX.txt
+08/05/2016  09:30 PM            48,090 blogs_posts_messages_script.txt
+08/05/2016  01:46 PM    <DIR>          dojo_ninjas
+08/05/2016  03:00 PM            94,322 dojo_ninjas_scripts.txt
+08/08/2016  01:14 PM    <DIR>          friend
+08/08/2016  12:29 PM            37,777 poke2.zip
+08/08/2016  12:30 PM    <DIR>          pokemon
+08/08/2016  08:38 AM    <DIR>          polymorphic
+08/08/2016  09:12 AM            33,285 polymorphic_script.txt
+08/08/2016  01:03 PM    <DIR>          selfjoin
+08/07/2016  08:08 PM    <DIR>          solutions
+08/05/2016  09:17 AM    <DIR>          test_project
+08/05/2016  11:51 AM            52,007 test_project_cmd_script.txt
+08/05/2016  11:02 AM    <DIR>          user_login_project
+08/05/2016  11:47 AM            24,518 user_login_project_script.txt
+               7 File(s)        532,870 bytes
+              13 Dir(s)  381,143,592,960 bytes free
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails>cd friend
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\friend>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is 2471-CA53
+
+ Directory of C:\Users\Adam\Desktop\Mint\RUBY\Rails\friend
+
+08/08/2016  01:14 PM    <DIR>          .
+08/08/2016  01:14 PM    <DIR>          ..
+08/08/2016  01:14 PM               474 .gitignore
+08/08/2016  01:14 PM    <DIR>          app
+08/08/2016  01:14 PM    <DIR>          bin
+08/08/2016  01:14 PM    <DIR>          config
+08/08/2016  01:14 PM               153 config.ru
+08/08/2016  01:14 PM    <DIR>          db
+08/08/2016  01:14 PM             1,497 Gemfile
+08/08/2016  01:14 PM             4,158 Gemfile.lock
+08/08/2016  01:14 PM    <DIR>          lib
+08/08/2016  01:14 PM    <DIR>          log
+08/08/2016  01:14 PM    <DIR>          public
+08/08/2016  01:14 PM               249 Rakefile
+08/08/2016  01:14 PM               478 README.rdoc
+08/08/2016  01:14 PM    <DIR>          test
+08/08/2016  01:14 PM    <DIR>          tmp
+08/08/2016  01:14 PM    <DIR>          vendor
+               6 File(s)          7,009 bytes
+              12 Dir(s)  381,143,592,960 bytes free
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\friend>atom .
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\friend>bundle install
+Error: Command 'install' not recognized
+Usage: rails COMMAND [ARGS]
+
+The most common rails commands are:
+ generate    Generate new code (short-cut alias: "g")
+ console     Start the Rails console (short-cut alias: "c")
+ server      Start the Rails server (short-cut alias: "s")
+ dbconsole   Start a console for the database specified in config/database.yml
+             (short-cut alias: "db")
+ new         Create a new Rails application. "rails new my_app" creates a
+             new application called MyApp in "./my_app"
+
+In addition to those, there are:
+ destroy      Undo code generated with "generate" (short-cut alias: "d")
+ plugin new   Generates skeleton for developing a Rails plugin
+ runner       Run a piece of code in the application environment (short-cut alias: "r")
+
+All commands can be run with -h (or --help) for more information.
+Using rake 11.2.2
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.9.0
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using pkg-config 1.1.7
+Using rack 1.6.4
+Using mime-types-data 3.2016.0521
+Using arel 6.0.3
+Using debug_inspector 0.0.2
+Using byebug 9.0.5
+Using coffee-script-source 1.10.0
+Using execjs 2.7.0
+Using thor 0.19.1
+Using concurrent-ruby 1.0.2
+Using hirb 0.7.3
+Using multi_json 1.12.1
+Using bundler 1.12.5
+Using sass 3.4.22
+Using tilt 2.0.5
+Using sqlite3 1.3.11
+Using turbolinks-source 5.0.0
+Using rdoc 4.2.2
+Using tzinfo 1.2.2
+Using nokogiri 1.6.8
+Using rack-test 0.6.3
+Using mime-types 3.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 3.0.1
+Using sprockets 3.7.0
+Using turbolinks 5.0.1
+Using sdoc 0.4.1
+Using activesupport 4.2.5.2
+Using tzinfo-data 1.2016.6
+Using loofah 2.0.3
+Using mail 2.6.4
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.7
+Using activemodel 4.2.5.2
+Using jbuilder 2.6.0
+Using rails-html-sanitizer 1.0.3
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.5.2
+Using activerecord 4.2.5.2
+Using actionview 4.2.5.2
+Using actionpack 4.2.5.2
+Using actionmailer 4.2.5.2
+Using railties 4.2.5.2
+Using sprockets-rails 3.1.1
+Using coffee-rails 4.1.1
+Using jquery-rails 4.1.1
+Using rails 4.2.5.2
+Using sass-rails 5.0.6
+Using web-console 2.3.0
+Bundle complete! 13 Gemfile dependencies, 58 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\friend>rails g model User first_name:string last_name:string
+      invoke  active_record
+      create    db/migrate/20160808201627_create_users.rb
+      create    app/models/user.rb
+      invoke    test_unit
+      create      test/models/user_test.rb
+      create      test/fixtures/users.yml
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\friend>rails g model Friendship user:references friend:references
+      invoke  active_record
+      create    db/migrate/20160808202247_create_friendships.rb
+      create    app/models/friendship.rb
+      invoke    test_unit
+      create      test/models/friendship_test.rb
+      create      test/fixtures/friendships.yml
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\friend>rake db:migrate
+== 20160808201627 CreateUsers: migrating ======================================
+-- create_table(:users)
+   -> 0.0029s
+== 20160808201627 CreateUsers: migrated (0.0047s) =============================
+
+== 20160808202247 CreateFriendships: migrating ================================
+-- create_table(:friendships)
+   -> 0.0046s
+== 20160808202247 CreateFriendships: migrated (0.0059s) =======================
+
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\friend>rails c
+Loading development environment (Rails 4.2.5.2)
+irb(main):001:0> Hirb.enable
+=> true
+irb(main):002:0> User.all
+  User Load (3.5ms)  SELECT "users".* FROM "users"
+=> #<ActiveRecord::Relation []>
+irb(main):003:0> Friendship.all
+  Friendship Load (0.5ms)  SELECT "friendships".* FROM "friendships"
+=> #<ActiveRecord::Relation []>
+irb(main):004:0> a = User.new
++----+------------+-----------+------------+------------+
+| id | first_name | last_name | created_at | updated_at |
++----+------------+-----------+------------+------------+
+|    |            |           |            |            |
++----+------------+-----------+------------+------------+
+1 row in set
+irb(main):005:0> a.first_name = "Disney"
+=> "Disney"
+irb(main):006:0> a.last_name = "Inc."
+=> "Inc."
+irb(main):007:0> a
++----+------------+-----------+------------+------------+
+| id | first_name | last_name | created_at | updated_at |
++----+------------+-----------+------------+------------+
+|    | Disney     | Inc.      |            |            |
++----+------------+-----------+------------+------------+
+1 row in set
+irb(main):008:0> a.save
+   (0.0ms)  begin transaction
+  SQL (1.8ms)  INSERT INTO "users" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["first_name", "Disney"], ["last_name", "Inc."], ["created_at", "2016-08-08 20:33:18.853937"], ["updated_at", "2016-08-08 20:33:18.853937"]]
+   (101.7ms)  commit transaction
+=> true
+irb(main):009:0> b = User.new
++----+------------+-----------+------------+------------+
+| id | first_name | last_name | created_at | updated_at |
++----+------------+-----------+------------+------------+
+|    |            |           |            |            |
++----+------------+-----------+------------+------------+
+1 row in set
+irb(main):010:0> b.first_name = "Princess"
+=> "Princess"
+irb(main):011:0> b.last_name = "Prince"
+=> "Prince"
+irb(main):012:0> b
++----+------------+-----------+------------+------------+
+| id | first_name | last_name | created_at | updated_at |
++----+------------+-----------+------------+------------+
+|    | Princess   | Prince    |            |            |
++----+------------+-----------+------------+------------+
+1 row in set
+irb(main):013:0> b.save
+   (0.0ms)  begin transaction
+  SQL (1.5ms)  INSERT INTO "users" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["first_name", "Princess"], ["last_name", "Prince"], ["created_at", "2016-08-08 20:33:48.848460"], ["updated_at", "2016-08-08 20:33:48.848460"]]
+   (133.9ms)  commit transaction
+=> true
+irb(main):014:0> User.all
+  User Load (0.5ms)  SELECT "users".* FROM "users"
++----+------------+-----------+-------------------------+-------------------------+
+| id | first_name | last_name | created_at              | updated_at              |
++----+------------+-----------+-------------------------+-------------------------+
+| 1  | Disney     | Inc.      | 2016-08-08 20:33:18 UTC | 2016-08-08 20:33:18 UTC |
+| 2  | Princess   | Prince    | 2016-08-08 20:33:48 UTC | 2016-08-08 20:33:48 UTC |
++----+------------+-----------+-------------------------+-------------------------+
+2 rows in set
+irb(main):015:0> Friendship.all
+  Friendship Load (0.5ms)  SELECT "friendships".* FROM "friendships"
+=> #<ActiveRecord::Relation []>
+irb(main):016:0> f = Friendship.new
++----+---------+-----------+------------+------------+
+| id | user_id | friend_id | created_at | updated_at |
++----+---------+-----------+------------+------------+
+|    |         |           |            |            |
++----+---------+-----------+------------+------------+
+1 row in set
+irb(main):017:0> f
++----+---------+-----------+------------+------------+
+| id | user_id | friend_id | created_at | updated_at |
++----+---------+-----------+------------+------------+
+|    |         |           |            |            |
++----+---------+-----------+------------+------------+
+1 row in set
+irb(main):018:0> f.user = User.first
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
++----+------------+-----------+-------------------------+-------------------------+
+| id | first_name | last_name | created_at              | updated_at              |
++----+------------+-----------+-------------------------+-------------------------+
+| 1  | Disney     | Inc.      | 2016-08-08 20:33:18 UTC | 2016-08-08 20:33:18 UTC |
++----+------------+-----------+-------------------------+-------------------------+
+1 row in set
+irb(main):019:0> f.friend = User.last
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
++----+------------+-----------+-------------------------+-------------------------+
+| id | first_name | last_name | created_at              | updated_at              |
++----+------------+-----------+-------------------------+-------------------------+
+| 2  | Princess   | Prince    | 2016-08-08 20:33:48 UTC | 2016-08-08 20:33:48 UTC |
++----+------------+-----------+-------------------------+-------------------------+
+1 row in set
+irb(main):020:0> f
++----+---------+-----------+------------+------------+
+| id | user_id | friend_id | created_at | updated_at |
++----+---------+-----------+------------+------------+
+|    | 1       | 2         |            |            |
++----+---------+-----------+------------+------------+
+1 row in set
+irb(main):021:0> f.save
+   (0.0ms)  begin transaction
+  SQL (27.8ms)  INSERT INTO "friendships" ("user_id", "friend_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["user_id", 1], ["friend_id", 2], ["created_at", "2016-08-08 20:34:58.720673"], ["updated_at", "2016-08-08 20:34:58.720673"]]
+   (119.2ms)  commit transaction
+=> true
+irb(main):022:0> Friendship.all
+  Friendship Load (0.5ms)  SELECT "friendships".* FROM "friendships"
++----+---------+-----------+-------------------------+-------------------------+
+| id | user_id | friend_id | created_at              | updated_at              |
++----+---------+-----------+-------------------------+-------------------------+
+| 1  | 1       | 2         | 2016-08-08 20:34:58 UTC | 2016-08-08 20:34:58 UTC |
++----+---------+-----------+-------------------------+-------------------------+
+1 row in set
+irb(main):023:0> User.first
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
++----+------------+-----------+-------------------------+-------------------------+
+| id | first_name | last_name | created_at              | updated_at              |
++----+------------+-----------+-------------------------+-------------------------+
+| 1  | Disney     | Inc.      | 2016-08-08 20:33:18 UTC | 2016-08-08 20:33:18 UTC |
++----+------------+-----------+-------------------------+-------------------------+
+1 row in set
+irb(main):024:0> User.first.friends
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+ActiveRecord::HasManyThroughSourceAssociationNotFoundError: Could not find the source association(s) :friendship in model Friendship. Try 'has_many :friends, :through => :my_friends, :source => <name>'. Is it one of user or friend?
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/reflection.rb:850:in `check_validity!'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations/association.rb:25:in `initialize'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations/has_many_through_association.rb:10:in `initialize'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations.rb:162:in `new'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations.rb:162:in `association'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations/builder/association.rb:115:in `friends'
+        from (irb):24
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:110:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:9:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:68:in `console'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands.rb:17:in `<top (required)>'
+        from bin/rails:4:in `require'
+        from bin/rails:4:in `<main>'
+irb(main):025:0> User.first.friend
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `friend' for #<User:0x4810848>
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activemodel-4.2.5.2/lib/active_model/attribute_methods.rb:433:in `method_missing'
+        from (irb):25
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:110:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:9:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:68:in `console'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands.rb:17:in `<top (required)>'
+        from bin/rails:4:in `require'
+        from bin/rails:4:in `<main>'
+irb(main):026:0> User.first
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
++----+------------+-----------+-------------------------+-------------------------+
+| id | first_name | last_name | created_at              | updated_at              |
++----+------------+-----------+-------------------------+-------------------------+
+| 1  | Disney     | Inc.      | 2016-08-08 20:33:18 UTC | 2016-08-08 20:33:18 UTC |
++----+------------+-----------+-------------------------+-------------------------+
+1 row in set
+irb(main):027:0> User.first.my_friends
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Friendship Load (0.0ms)  SELECT "friendships".* FROM "friendships" WHERE "friendships"."friend_id" = ?  [["friend_id", 1]]
+=> #<ActiveRecord::Associations::CollectionProxy []>
+irb(main):028:0> User.first.my_friends.friends
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError:   Friendship Load (0.0ms)  SELECT "friendships".* FROM "friendships" WHERE "friendships"."friend_id" = ?  [["friend_id", 1]]
+undefined method `friends' for #<ActiveRecord::Associations::CollectionProxy []>
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/relation/delegation.rb:136:in `method_missing'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/relation/delegation.rb:99:in `method_missing'
+        from (irb):28
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:110:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:9:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:68:in `console'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands.rb:17:in `<top (required)>'
+        from bin/rails:4:in `require'
+        from bin/rails:4:in `<main>'
+irb(main):029:0> User.first.my_friends
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Friendship Load (0.5ms)  SELECT "friendships".* FROM "friendships" WHERE "friendships"."friend_id" = ?  [["friend_id", 1]]
+=> #<ActiveRecord::Associations::CollectionProxy []>
+irb(main):030:0> User.last.my_friends
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  Friendship Load (0.0ms)  SELECT "friendships".* FROM "friendships" WHERE "friendships"."friend_id" = ?  [["friend_id", 2]]
++----+---------+-----------+-------------------------+-------------------------+
+| id | user_id | friend_id | created_at              | updated_at              |
++----+---------+-----------+-------------------------+-------------------------+
+| 1  | 1       | 2         | 2016-08-08 20:34:58 UTC | 2016-08-08 20:34:58 UTC |
++----+---------+-----------+-------------------------+-------------------------+
+1 row in set
+irb(main):031:0> User.last.friends
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+ActiveRecord::HasManyThroughSourceAssociationNotFoundError: Could not find the source association(s) :friendship in model Friendship. Try 'has_many :friends, :through => :my_friends, :source => <name>'. Is it one of user or friend?
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/reflection.rb:850:in `check_validity!'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations/association.rb:25:in `initialize'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations/has_many_through_association.rb:10:in `initialize'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations.rb:162:in `new'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations.rb:162:in `association'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations/builder/association.rb:115:in `friends'
+        from (irb):31
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:110:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:9:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:68:in `console'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands.rb:17:in `<top (required)>'
+        from bin/rails:4:in `require'
+        from bin/rails:4:in `<main>'
+irb(main):032:0> User.last.my_friends
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  Friendship Load (0.5ms)  SELECT "friendships".* FROM "friendships" WHERE "friendships"."friend_id" = ?  [["friend_id", 2]]
++----+---------+-----------+-------------------------+-------------------------+
+| id | user_id | friend_id | created_at              | updated_at              |
++----+---------+-----------+-------------------------+-------------------------+
+| 1  | 1       | 2         | 2016-08-08 20:34:58 UTC | 2016-08-08 20:34:58 UTC |
++----+---------+-----------+-------------------------+-------------------------+
+1 row in set
+irb(main):033:0> User.first.my_friends
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Friendship Load (0.5ms)  SELECT "friendships".* FROM "friendships" WHERE "friendships"."friend_id" = ?  [["friend_id", 1]]
+=> #<ActiveRecord::Associations::CollectionProxy []>
+irb(main):034:0> User.last.friends
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+ActiveRecord::HasManyThroughSourceAssociationNotFoundError: Could not find the source association(s) :friendship in model Friendship. Try 'has_many :friends, :through => :my_friends, :source => <name>'. Is it one of user or friend?
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/reflection.rb:850:in `check_validity!'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations/association.rb:25:in `initialize'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations/has_many_through_association.rb:10:in `initialize'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations.rb:162:in `new'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations.rb:162:in `association'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/associations/builder/association.rb:115:in `friends'
+        from (irb):34
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:110:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:9:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:68:in `console'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands.rb:17:in `<top (required)>'
+        from bin/rails:4:in `require'
+        from bin/rails:4:in `<main>'
+irb(main):035:0> User.last.my_friends
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  Friendship Load (0.5ms)  SELECT "friendships".* FROM "friendships" WHERE "friendships"."friend_id" = ?  [["friend_id", 2]]
++----+---------+-----------+-------------------------+-------------------------+
+| id | user_id | friend_id | created_at              | updated_at              |
++----+---------+-----------+-------------------------+-------------------------+
+| 1  | 1       | 2         | 2016-08-08 20:34:58 UTC | 2016-08-08 20:34:58 UTC |
++----+---------+-----------+-------------------------+-------------------------+
+1 row in set
+irb(main):036:0> quit
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\friend>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is 2471-CA53
+
+ Directory of C:\Users\Adam\Desktop\Mint\RUBY\Rails\friend
+
+08/08/2016  01:14 PM    <DIR>          .
+08/08/2016  01:14 PM    <DIR>          ..
+08/08/2016  01:14 PM               474 .gitignore
+08/08/2016  01:14 PM    <DIR>          app
+08/08/2016  01:14 PM    <DIR>          bin
+08/08/2016  01:14 PM    <DIR>          config
+08/08/2016  01:14 PM               153 config.ru
+08/08/2016  01:34 PM    <DIR>          db
+08/08/2016  01:15 PM             1,509 Gemfile
+08/08/2016  01:15 PM             4,182 Gemfile.lock
+08/08/2016  01:14 PM    <DIR>          lib
+08/08/2016  01:16 PM    <DIR>          log
+08/08/2016  01:14 PM    <DIR>          public
+08/08/2016  01:14 PM               249 Rakefile
+08/08/2016  01:14 PM               478 README.rdoc
+08/08/2016  01:14 PM    <DIR>          test
+08/08/2016  01:14 PM    <DIR>          tmp
+08/08/2016  01:14 PM    <DIR>          vendor
+               6 File(s)          7,045 bytes
+              12 Dir(s)  381,220,368,384 bytes free
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\friend>cd..
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is 2471-CA53
+
+ Directory of C:\Users\Adam\Desktop\Mint\RUBY\Rails
+
+08/08/2016  01:14 PM    <DIR>          .
+08/08/2016  01:14 PM    <DIR>          ..
+08/05/2016  03:09 PM    <DIR>          blogs_posts_messages
+08/06/2016  03:14 PM    <DIR>          blogs_posts_messages2
+08/05/2016  09:41 PM    <DIR>          blogs_posts_messagesII
+08/08/2016  08:30 AM           242,871 blogs_posts_messagesII_scriptX.txt
+08/05/2016  09:30 PM            48,090 blogs_posts_messages_script.txt
+08/05/2016  01:46 PM    <DIR>          dojo_ninjas
+08/05/2016  03:00 PM            94,322 dojo_ninjas_scripts.txt
+08/08/2016  01:14 PM    <DIR>          friend
+08/08/2016  12:29 PM            37,777 poke2.zip
+08/08/2016  12:30 PM    <DIR>          pokemon
+08/08/2016  08:38 AM    <DIR>          polymorphic
+08/08/2016  09:12 AM            33,285 polymorphic_script.txt
+08/08/2016  01:03 PM    <DIR>          selfjoin
+08/07/2016  08:08 PM    <DIR>          solutions
+08/05/2016  09:17 AM    <DIR>          test_project
+08/05/2016  11:51 AM            52,007 test_project_cmd_script.txt
+08/05/2016  11:02 AM    <DIR>          user_login_project
+08/05/2016  11:47 AM            24,518 user_login_project_script.txt
+               7 File(s)        532,870 bytes
+              13 Dir(s)  381,220,368,384 bytes free
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails>

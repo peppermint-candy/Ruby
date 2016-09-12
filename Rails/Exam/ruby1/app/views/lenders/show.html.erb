@@ -1,0 +1,73 @@
+<h4> <label>Name:</label><%= @lender.first_name %> <%= @lender.last_name %></h4>
+<h4><label>Account balance:</label> <%= number_to_currency(@lender.money - @debts.sum(:amount)) %></h4>
+
+<h5>List of people in need of help:</h5>
+<table>
+  <thead>
+    <th>      Name    </th>
+    <th>      Need money for    </th>
+    <th>      Reason for loan    </th>
+    <th>      Amount need    </th>
+    <th>      Amount raised    </th>
+    <th>      Action    </th>
+  </thead>
+  <tbody>
+    <% @borrowers.each do |borrower| %>
+    <tr>
+      <td><%= borrower.borrower.first_name %> <%= borrower.borrower.last_name %></td>
+      <td><%= borrower.borrower.need %></td>
+      <td> <%= borrower.borrower.description %></td>
+      <td><%= number_to_currency(borrower.borrower.amount) %></td>
+      <td> <%= number_to_currency(Debt.where(borrower:borrower.borrower).sum(:amount)) %>  </td>
+      <td>
+        <form action="/debts" method="post">
+          <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+          <input type="hidden" name="borr_id" value="<%= borrower.id %>" />
+          <input type="number" name="lend_amt" />
+          <input type="submit" value="Lend" />
+        </form>
+      </td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+<h5>List of people you lend money to:</h5>
+<table>
+  <thead>
+    <th>
+      Name
+    </th>
+    <th>
+      Need money for
+    </th>
+    <th>
+      Reason for loan
+    </th>
+    <th>
+      Amount need
+    </th>
+    <th>
+      Amount raised
+    </th>
+    <th>
+      Amount lent
+    </th>
+  </thead>
+  <tbody>
+    <% @debts.each do |debt| %>
+    <tr>
+      <td> <%= debt.borrower.first_name  %> <%= debt.borrower.last_name %> </td>
+      <td><%= debt.borrower.need %></td>
+      <td> <%= debt.borrower.description %></td>
+      <td> <%= number_to_currency(debt.borrower.amount) %></td>
+      <td> <%= number_to_currency(Debt.where(borrower:debt.borrower).sum(:amount)) %></td>
+      <td> <%= number_to_currency(debt.amount) %></td>
+    </tr>
+    <% end %>
+  </tbody>
+
+
+
+</table>

@@ -1,0 +1,23 @@
+<h1>Hello Ninja!</h1>
+<% if flash[:error] %>
+<%= flash[:error] %>
+<% end %>
+<form action="/create" method="post">
+  <p>
+    <label>Ninja Name:</label>
+    <input type="text" name="name" />
+    <% if flash[:name] %>
+    <%= flash[:name] %>
+    <% end %>
+  </p>
+  <p>
+    <label>Ninja Description:</label>
+    <input type="text" name="description" />
+    <% if flash[:desc] %>
+    <%= flash[:desc] %>
+    <% end %>
+  </p>
+  <p>
+    <input type="submit" value="Submit" />
+  </p>
+</form>

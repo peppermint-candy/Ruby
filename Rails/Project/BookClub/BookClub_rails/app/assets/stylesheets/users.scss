@@ -1,0 +1,66 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html#index {
+  background: url(login_bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Trebuchet MS"
+}
+
+div#login {
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  margin-top: 300px;
+  padding: 10px;
+}
+
+div#signup {
+  width: 450px;
+  height: 350px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  margin-top: 200px;
+  padding: 20px;
+}
+
+label {
+  display: inline-block;
+  min-width: 180px;
+  height: 40px;
+  // border: 1px solid black;
+}
+
+input {
+  display: inline-block;
+  height: 18px;
+  border: 1px solid white;
+  border-radius:5px;
+  width: 200px;
+}
+
+button {
+  vertical-align: top;
+  margin-left: 180px;
+  margin-top: 20px;
+  min-width: 60px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Trebuchet MS";
+}
+
+h2 {
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+}

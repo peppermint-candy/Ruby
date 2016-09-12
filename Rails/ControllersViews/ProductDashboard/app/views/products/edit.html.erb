@@ -1,0 +1,29 @@
+<h1>Editing product</h1>
+<form action="/products/update/<%= @edit_product.id %>" method="post">
+  <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+  <p>
+    <label>Category:</label>
+    <select name="update_product[category]" required>
+    <option value="" disabled selected>Select the category</option>
+    <%= @categories.each do |category| %>
+    <option value="<%= category.id %>"><%= category.name %>
+    </option>
+    <% end %>
+    </select>
+  </p>
+  <p>
+    <label>Name:</label>
+    <input type="text" name="update_product[name]" placeholder="<%= @edit_product.name %>"/>
+  </p>
+  <p>
+    <label>Description:</label>
+    <input type="text" name="update_product[description]" placeholder="<%= @edit_product.description %>"/>
+  </p>
+  <p>
+    <label>Price:</label>
+    <input type="text" name="update_product[pricing]" placeholder="<%= @edit_product.pricing %>"/>
+    <input type="submit" value="Update" />
+  </p>
+
+<a href="/products/show/<%= @edit_product.id %>">Show</a> |
+<a href="/products/index">Back</a>

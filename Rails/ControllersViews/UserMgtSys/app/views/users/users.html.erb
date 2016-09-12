@@ -1,0 +1,24 @@
+<h1>Listing users</h1>
+<table>
+  <thead>
+    <th>First name</th>
+    <th>Last name</th>
+    <th>Email</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </thead>
+  <tbody>
+    <% for i in @users %>
+    <tr>
+      <td> <%= i.first_name %> </td>
+      <td> <%= i.last_name %> </td>
+      <td> <%= i.email %> </td>
+      <td><a href="/show/<%= i.id %>">Show</a></td>
+      <td><a href="/edit/<%= i.id %>">Edit</a></td>
+      <td><a href="/destroy/<%= i.id %>">Destroy</a></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+<a href="/new_user">New User</a>

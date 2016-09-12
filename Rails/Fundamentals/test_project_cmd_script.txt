@@ -1,0 +1,927 @@
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+C:\Users\Adam\Desktop\Mint\RUBY\Rails>rails _4.2.5.2_ new test_project
+      create
+      create  README.rdoc
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/assets/javascripts/application.js
+      create  app/assets/stylesheets/application.css
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/views/layouts/application.html.erb
+      create  app/assets/images/.keep
+      create  app/mailers/.keep
+      create  app/models/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/secrets.yml
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/session_store.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  test/fixtures
+      create  test/fixtures/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/test_helper.rb
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor/assets/javascripts
+      create  vendor/assets/javascripts/.keep
+      create  vendor/assets/stylesheets
+      create  vendor/assets/stylesheets/.keep
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/
+Fetching version metadata from https://rubygems.org/
+Fetching dependency metadata from https://rubygems.org/
+Resolving dependencies.....
+Using rake 11.2.2
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.9.0
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using pkg-config 1.1.7
+Using rack 1.6.4
+Using mime-types-data 3.2016.0521
+Using arel 6.0.3
+Using debug_inspector 0.0.2
+Using bundler 1.12.5
+Using byebug 9.0.5
+Using coffee-script-source 1.10.0
+Using execjs 2.7.0
+Using thor 0.19.1
+Using concurrent-ruby 1.0.2
+Using multi_json 1.12.1
+Using sass 3.4.22
+Using tilt 2.0.5
+Using sqlite3 1.3.11
+Using turbolinks-source 5.0.0
+Using rdoc 4.2.2
+Using tzinfo 1.2.2
+Using nokogiri 1.6.8
+Using rack-test 0.6.3
+Using mime-types 3.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 3.0.1
+Using sprockets 3.7.0
+Using turbolinks 5.0.1
+Using sdoc 0.4.1
+Using activesupport 4.2.5.2
+Using tzinfo-data 1.2016.6
+Using loofah 2.0.3
+Using mail 2.6.4
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.7
+Using activemodel 4.2.5.2
+Using jbuilder 2.6.0
+Using rails-html-sanitizer 1.0.3
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.5.2
+Using activerecord 4.2.5.2
+Using actionview 4.2.5.2
+Using actionpack 4.2.5.2
+Using actionmailer 4.2.5.2
+Using railties 4.2.5.2
+Using sprockets-rails 3.1.1
+Using coffee-rails 4.1.1
+Using jquery-rails 4.1.1
+Using rails 4.2.5.2
+Using sass-rails 5.0.6
+Using web-console 2.3.0
+Bundle complete! 12 Gemfile dependencies, 57 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is 2471-CA53
+
+ Directory of C:\Users\Adam\Desktop\Mint\RUBY\Rails
+
+08/05/2016  09:17 AM    <DIR>          .
+08/05/2016  09:17 AM    <DIR>          ..
+08/05/2016  09:17 AM    <DIR>          test_project
+               0 File(s)              0 bytes
+               3 Dir(s)  373,608,845,312 bytes free
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails>cd test_project
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is 2471-CA53
+
+ Directory of C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project
+
+08/05/2016  09:17 AM    <DIR>          .
+08/05/2016  09:17 AM    <DIR>          ..
+08/05/2016  09:17 AM               474 .gitignore
+08/05/2016  09:17 AM    <DIR>          app
+08/05/2016  09:17 AM    <DIR>          bin
+08/05/2016  09:17 AM    <DIR>          config
+08/05/2016  09:17 AM               153 config.ru
+08/05/2016  09:17 AM    <DIR>          db
+08/05/2016  09:17 AM             1,497 Gemfile
+08/05/2016  09:17 AM             4,158 Gemfile.lock
+08/05/2016  09:17 AM    <DIR>          lib
+08/05/2016  09:17 AM    <DIR>          log
+08/05/2016  09:17 AM    <DIR>          public
+08/05/2016  09:17 AM               249 Rakefile
+08/05/2016  09:17 AM               478 README.rdoc
+08/05/2016  09:17 AM    <DIR>          test
+08/05/2016  09:17 AM    <DIR>          tmp
+08/05/2016  09:17 AM    <DIR>          vendor
+               6 File(s)          7,009 bytes
+              12 Dir(s)  373,608,845,312 bytes free
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>atom .
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>bundle install
+Error: Command 'install' not recognized
+Usage: rails COMMAND [ARGS]
+
+The most common rails commands are:
+ generate    Generate new code (short-cut alias: "g")
+ console     Start the Rails console (short-cut alias: "c")
+ server      Start the Rails server (short-cut alias: "s")
+ dbconsole   Start a console for the database specified in config/database.yml
+             (short-cut alias: "db")
+ new         Create a new Rails application. "rails new my_app" creates a
+             new application called MyApp in "./my_app"
+
+In addition to those, there are:
+ destroy      Undo code generated with "generate" (short-cut alias: "d")
+ plugin new   Generates skeleton for developing a Rails plugin
+ runner       Run a piece of code in the application environment (short-cut alias: "r")
+
+All commands can be run with -h (or --help) for more information.
+Using rake 11.2.2
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.9.0
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using pkg-config 1.1.7
+Using rack 1.6.4
+Using mime-types-data 3.2016.0521
+Using arel 6.0.3
+Using bcrypt 3.1.11
+Using debug_inspector 0.0.2
+Using byebug 9.0.5
+Using coffee-script-source 1.10.0
+Using execjs 2.7.0
+Using thor 0.19.1
+Using concurrent-ruby 1.0.2
+Using hirb 0.7.3
+Using multi_json 1.12.1
+Using bundler 1.12.5
+Using sass 3.4.22
+Using tilt 2.0.5
+Using sqlite3 1.3.11
+Using turbolinks-source 5.0.0
+Using rdoc 4.2.2
+Using tzinfo 1.2.2
+Using nokogiri 1.6.8
+Using rack-test 0.6.3
+Using mime-types 3.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 3.0.1
+Using sprockets 3.7.0
+Using turbolinks 5.0.1
+Using sdoc 0.4.1
+Using activesupport 4.2.5.2
+Using tzinfo-data 1.2016.6
+Using loofah 2.0.3
+Using mail 2.6.4
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.7
+Using activemodel 4.2.5.2
+Using jbuilder 2.6.0
+Using rails-html-sanitizer 1.0.3
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.5.2
+Using activerecord 4.2.5.2
+Using actionview 4.2.5.2
+Using actionpack 4.2.5.2
+Using actionmailer 4.2.5.2
+Using railties 4.2.5.2
+Using sprockets-rails 3.1.1
+Using coffee-rails 4.1.1
+Using jquery-rails 4.1.1
+Using rails 4.2.5.2
+Using sass-rails 5.0.6
+Using web-console 2.3.0
+Bundle complete! 14 Gemfile dependencies, 59 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rails g model User first_name:String last_name:String email:String password:String age:integer
+      invoke  active_record
+      create    db/migrate/20160805161909_create_users.rb
+      create    app/models/user.rb
+      invoke    test_unit
+      create      test/models/user_test.rb
+      create      test/fixtures/users.yml
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rake db:migrate
+== 20160805161909 CreateUsers: migrating ======================================
+-- create_table(:users)
+rake aborted!
+StandardError: An error has occurred, this and all later migrations canceled:
+
+private method `String' called for #<ActiveRecord::ConnectionAdapters::TableDefinition:0x5652468>
+C:/Users/Adam/Desktop/Mint/RUBY/Rails/test_project/db/migrate/20160805161909_create_users.rb:4:in `block in change'
+C:/Users/Adam/Desktop/Mint/RUBY/Rails/test_project/db/migrate/20160805161909_create_users.rb:3:in `change'
+C:in `migrate'
+NoMethodError: private method `String' called for #<ActiveRecord::ConnectionAdapters::TableDefinition:0x5652468>
+C:/Users/Adam/Desktop/Mint/RUBY/Rails/test_project/db/migrate/20160805161909_create_users.rb:4:in `block in change'
+C:/Users/Adam/Desktop/Mint/RUBY/Rails/test_project/db/migrate/20160805161909_create_users.rb:3:in `change'
+C:in `migrate'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rails g model User first_name:string last_name:string email:string password:string age:integer
+      invoke  active_record
+    conflict    db/migrate/20160805162400_create_users.rb
+Another migration is already named create_users: C:/Users/Adam/Desktop/Mint/RUBY/Rails/test_project/db/migrate/20160805161909_create_users.rb. Use --force to replace this migration or --skip to ignore conflicted file.
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rails db:migrate
+Error: Command 'db:migrate' not recognized
+Did you mean: `$ rake db:migrate` ?
+
+Usage: rails COMMAND [ARGS]
+
+The most common rails commands are:
+ generate    Generate new code (short-cut alias: "g")
+ console     Start the Rails console (short-cut alias: "c")
+ server      Start the Rails server (short-cut alias: "s")
+ dbconsole   Start a console for the database specified in config/database.yml
+             (short-cut alias: "db")
+ new         Create a new Rails application. "rails new my_app" creates a
+             new application called MyApp in "./my_app"
+
+In addition to those, there are:
+ destroy      Undo code generated with "generate" (short-cut alias: "d")
+ plugin new   Generates skeleton for developing a Rails plugin
+ runner       Run a piece of code in the application environment (short-cut alias: "r")
+
+All commands can be run with -h (or --help) for more information.
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rake db:migrate
+== 20160805161909 CreateUsers: migrating ======================================
+-- create_table(:users)
+   -> 0.0029s
+== 20160805161909 CreateUsers: migrated (0.0041s) =============================
+
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rails c
+Loading development environment (Rails 4.2.5.2)
+irb(main):001:0> User.new
+=> #<User id: nil, first_name: nil, last_name: nil, email: nil, password: nil, age: nil, created_at: nil, updated_at: nil>
+irb(main):002:0> user1 = User.new
+=> #<User id: nil, first_name: nil, last_name: nil, email: nil, password: nil, age: nil, created_at: nil, updated_at: nil>
+irb(main):003:0> user1[:first_name] = "Eddard"
+=> "Eddard"
+irb(main):004:0> user1[:last_name] = "Stark"
+=> "Stark"
+irb(main):005:0> user1[:age]=40
+=> 40
+irb(main):006:0> user1
+=> #<User id: nil, first_name: "Eddard", last_name: "Stark", email: nil, password: nil, age: 40, created_at: nil, updated_at: nil>
+irb(main):007:0> user1.save
+   (0.0ms)  begin transaction
+  SQL (22.3ms)  INSERT INTO "users" ("first_name", "last_name", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "Eddard"], ["last_name", "Stark"], ["age", 40], ["created_at", "2016-08-05 16:28:33.239264"], ["updated_at", "2016-08-05 16:28:33.239264"]]
+   (99.9ms)  commit transaction
+=> true
+<r.new(first_name: "Cercei", last_name: "Lanister", age: 35)
+=> #<User id: nil, first_name: "Cercei", last_name: "Lanister", email: nil, password: nil, age: 35, created_at: nil, updated_at: nil>
+irb(main):009:0> user2.save
+   (0.0ms)  begin transaction
+  SQL (1.0ms)  INSERT INTO "users" ("first_name", "last_name", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "Cercei"], ["last_name", "Lanister"], ["age", 35], ["created_at", "2016-08-05 16:29:51.143111"], ["updated_at", "2016-08-05 16:29:51.143111"]]
+   (76.5ms)  commit transaction
+=> true
+<me:"Snow", age:17, email:"jon@snow.com", password:"password")
+   (0.0ms)  begin transaction
+  SQL (1.0ms)  INSERT INTO "users" ("first_name", "last_name", "age", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["first_name", "Jon"], ["last_name", "Snow"], ["age", 17], ["email", "jon@snow.com"], ["password", "password"], ["created_at", "2016-08-05 16:31:01.662506"], ["updated_at", "2016-08-05 16:31:01.662506"]]
+   (109.7ms)  commit transaction
+=> #<User id: 3, first_name: "Jon", last_name: "Snow", email: "jon@snow.com", password: "password", age: 17, created_at: "2016-08-05 16:31:01", updated_at: "2016-08-05 16:31:01">
+irb(main):011:0> User.all
+  User Load (0.0ms)  SELECT "users".* FROM "users"
+=> #<ActiveRecord::Relation [#<User id: 1, first_name: "Eddard", last_name: "Stark", email: nil, password: nil, age: 40, created_at: "2016-08-05 16:28:33", updated_at: "2016-08-05 16:28:33">, #<User id: 2, first_name: "Cercei", last_name: "Lanister", email: nil, password: nil, age: 35, created_at: "2016-08-05 16:29:51", updated_at: "2016-08-05 16:29:51">, #<User id: 3, first_name: "Jon", last_name: "Snow", email: "jon@snow.com", password: "password", age: 17, created_at: "2016-08-05 16:31:01", updated_at: "2016-08-05 16:31:01">]>
+irb(main):012:0> Hirb.enable
+=> true
+irb(main):013:0> User.all
+  User Load (0.5ms)  SELECT "users".* FROM "users"
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| id | first_... | last_name | email     | password | age | create... | update... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| 1  | Eddard    | Stark     |           |          | 40  | 2016-0... | 2016-0... |
+| 2  | Cercei    | Lanister  |           |          | 35  | 2016-0... | 2016-0... |
+| 3  | Jon       | Snow      | jon@sn... | password | 17  | 2016-0... | 2016-0... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+3 rows in set
+irb(main):014:0> User.first
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
++----+------------+-----------+-------+----------+-----+------------+-------------+
+| id | first_name | last_name | email | password | age | created_at | updated_at  |
++----+------------+-----------+-------+----------+-----+------------+-------------+
+| 1  | Eddard     | Stark     |       |          | 40  | 2016-08... | 2016-08-... |
++----+------------+-----------+-------+----------+-----+------------+-------------+
+1 row in set
+irb(main):015:0> User.last
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| id | first_... | last_name | email     | password | age | create... | update... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| 3  | Jon       | Snow      | jon@sn... | password | 17  | 2016-0... | 2016-0... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+1 row in set
+irb(main):016:0> User.find(2)
+  User Load (0.5ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
++----+------------+-----------+-------+----------+-----+------------+-------------+
+| id | first_name | last_name | email | password | age | created_at | updated_at  |
++----+------------+-----------+-------+----------+-----+------------+-------------+
+| 2  | Cercei     | Lanister  |       |          | 35  | 2016-08... | 2016-08-... |
++----+------------+-----------+-------+----------+-----+------------+-------------+
+1 row in set
+irb(main):017:0> User.find_by_(first_name:"Jon")
+NoMethodError: undefined method `find_by_' for #<Class:0x45384c0>
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/dynamic_matchers.rb:26:in `method_missing'
+        from (irb):17
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:110:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:9:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:68:in `console'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands.rb:17:in `<top (required)>'
+        from bin/rails:4:in `require'
+        from bin/rails:4:in `<main>'
+irb(main):018:0> User.find_by(first_name:"Jon")
+  User Load (0.0ms)  SELECT  "users".* FROM "users" WHERE "users"."first_name" = ? LIMIT 1  [["first_name", "Jon"]]
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| id | first_... | last_name | email     | password | age | create... | update... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| 3  | Jon       | Snow      | jon@sn... | password | 17  | 2016-0... | 2016-0... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+1 row in set
+irb(main):019:0> User.last.update(age: 18)
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+   (0.0ms)  begin transaction
+  SQL (0.5ms)  UPDATE "users" SET "age" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["age", 18], ["updated_at", "2016-08-05 16:34:13.647099"], ["id", 3]]
+   (102.9ms)  commit transaction
+=> true
+irb(main):020:0> User.all
+  User Load (0.0ms)  SELECT "users".* FROM "users"
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| id | first_... | last_name | email     | password | age | create... | update... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| 1  | Eddard    | Stark     |           |          | 40  | 2016-0... | 2016-0... |
+| 2  | Cercei    | Lanister  |           |          | 35  | 2016-0... | 2016-0... |
+| 3  | Jon       | Snow      | jon@sn... | password | 18  | 2016-0... | 2016-0... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+3 rows in set
+irb(main):021:0> User.first.update(email: "ned@ned.com",password:"password")
+  User Load (0.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+   (0.0ms)  begin transaction
+  SQL (1.0ms)  UPDATE "users" SET "email" = ?, "password" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["email", "ned@ned.com"], ["password", "password"], ["updated_at", "2016-08-05 16:34:52.625019"], ["id", 1]]
+   (155.0ms)  commit transaction
+=> true
+irb(main):022:0> user.all
+NameError: undefined local variable or method `user' for main:Object
+        from (irb):22
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:110:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:9:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:68:in `console'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands.rb:17:in `<top (required)>'
+        from bin/rails:4:in `require'
+        from bin/rails:4:in `<main>'
+irb(main):023:0> User.all
+  User Load (0.5ms)  SELECT "users".* FROM "users"
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| id | first_... | last_name | email     | password | age | create... | update... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| 1  | Eddard    | Stark     | ned@ne... | password | 40  | 2016-0... | 2016-0... |
+| 2  | Cercei    | Lanister  |           |          | 35  | 2016-0... | 2016-0... |
+| 3  | Jon       | Snow      | jon@sn... | password | 18  | 2016-0... | 2016-0... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+3 rows in set
+irb(main):024:0> User.create(last_name:"noFirstName")
+   (0.0ms)  begin transaction
+  SQL (1.0ms)  INSERT INTO "users" ("last_name", "created_at", "updated_at") VALUES (?, ?, ?)  [["last_name", "noFirstName"], ["created_at", "2016-08-05 16:37:13.633814"], ["updated_at", "2016-08-05 16:37:13.633814"]]
+   (123.6ms)  commit transaction
++----+------------+------------+-------+----------+-----+------------+------------+
+| id | first_name | last_name  | email | password | age | created_at | updated_at |
++----+------------+------------+-------+----------+-----+------------+------------+
+| 4  |            | noFirst... |       |          |     | 2016-08... | 2016-08... |
++----+------------+------------+-------+----------+-----+------------+------------+
+1 row in set
+irb(main):025:0> User.find(4).delete
+  User Load (0.0ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  SQL (115.9ms)  DELETE FROM "users" WHERE "users"."id" = ?  [["id", 4]]
++----+------------+------------+-------+----------+-----+------------+------------+
+| id | first_name | last_name  | email | password | age | created_at | updated_at |
++----+------------+------------+-------+----------+-----+------------+------------+
+| 4  |            | noFirst... |       |          |     | 2016-08... | 2016-08... |
++----+------------+------------+-------+----------+-----+------------+------------+
+1 row in set
+irb(main):026:0> user.all
+NameError: undefined local variable or method `user' for main:Object
+        from (irb):26
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:110:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:9:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:68:in `console'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands.rb:17:in `<top (required)>'
+        from bin/rails:4:in `require'
+        from bin/rails:4:in `<main>'
+irb(main):027:0> User.all
+  User Load (0.0ms)  SELECT "users".* FROM "users"
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| id | first_... | last_name | email     | password | age | create... | update... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| 1  | Eddard    | Stark     | ned@ne... | password | 40  | 2016-0... | 2016-0... |
+| 2  | Cercei    | Lanister  |           |          | 35  | 2016-0... | 2016-0... |
+| 3  | Jon       | Snow      | jon@sn... | password | 18  | 2016-0... | 2016-0... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+3 rows in set
+irb(main):028:0> Hodor = User.new
++----+------------+-----------+-------+----------+-----+------------+------------+
+| id | first_name | last_name | email | password | age | created_at | updated_at |
++----+------------+-----------+-------+----------+-----+------------+------------+
+|    |            |           |       |          |     |            |            |
++----+------------+-----------+-------+----------+-----+------------+------------+
+1 row in set
+irb(main):029:0> Hodor.save
+   (0.0ms)  begin transaction
+  SQL (2.0ms)  INSERT INTO "users" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", "2016-08-05 16:38:48.982680"], ["updated_at", "2016-08-05 16:38:48.982680"]]
+   (106.7ms)  commit transaction
+=> true
+irb(main):030:0> User.all
+  User Load (0.0ms)  SELECT "users".* FROM "users"
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| id | first_... | last_name | email     | password | age | create... | update... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| 1  | Eddard    | Stark     | ned@ne... | password | 40  | 2016-0... | 2016-0... |
+| 2  | Cercei    | Lanister  |           |          | 35  | 2016-0... | 2016-0... |
+| 3  | Jon       | Snow      | jon@sn... | password | 18  | 2016-0... | 2016-0... |
+| 5  |           |           |           |          |     | 2016-0... | 2016-0... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+4 rows in set
+irb(main):031:0> User.find(5).delete
+  User Load (0.0ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  SQL (117.5ms)  DELETE FROM "users" WHERE "users"."id" = ?  [["id", 5]]
++----+------------+-----------+-------+----------+-----+------------+-------------+
+| id | first_name | last_name | email | password | age | created_at | updated_at  |
++----+------------+-----------+-------+----------+-----+------------+-------------+
+| 5  |            |           |       |          |     | 2016-08... | 2016-08-... |
++----+------------+-----------+-------+----------+-----+------------+-------------+
+1 row in set
+irb(main):032:0> User.all
+  User Load (0.0ms)  SELECT "users".* FROM "users"
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| id | first_... | last_name | email     | password | age | create... | update... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| 1  | Eddard    | Stark     | ned@ne... | password | 40  | 2016-0... | 2016-0... |
+| 2  | Cercei    | Lanister  |           |          | 35  | 2016-0... | 2016-0... |
+| 3  | Jon       | Snow      | jon@sn... | password | 18  | 2016-0... | 2016-0... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+3 rows in set
+irb(main):033:0> exit
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rails c
+Loading development environment (Rails 4.2.5.2)
+irb(main):001:0> jon = User.new
+=> #<User id: nil, first_name: nil, last_name: nil, email: nil, password: nil, age: nil, created_at: nil, updated_at: nil>
+irb(main):002:0> jon.save
+   (0.0ms)  begin transaction
+   (0.0ms)  rollback transaction
+=> false
+irb(main):003:0> jon.errors
+=> #<ActiveModel::Errors:0x60f72c0 @base=#<User id: nil, first_name: nil, last_name: nil, email: nil, password: nil, age: nil, created_at: nil, updated_at: nil>, @messages={:first_name=>["can't be blank"]}>
+irb(main):004:0> jon.errors.full_messages
+=> ["First name can't be blank"]
+irb(main):005:0> reload!
+Reloading...
+=> true
+irb(main):006:0> jon
+=> #<User id: nil, first_name: nil, last_name: nil, email: nil, password: nil, age: nil, created_at: nil, updated_at: nil>
+irb(main):007:0> jon.save
+   (0.0ms)  begin transaction
+   (0.0ms)  rollback transaction
+=> false
+irb(main):008:0> jon.errors.full_messages
+=> ["First name can't be blank"]
+irb(main):009:0> jon = User.new
+=> #<User id: nil, first_name: nil, last_name: nil, email: nil, password: nil, age: nil, created_at: nil, updated_at: nil>
+irb(main):010:0> jon.save
+   (0.0ms)  begin transaction
+   (0.0ms)  rollback transaction
+=> false
+irb(main):011:0> jon.errors.full_messages
+=> ["First name can't be blank", "First name is too short (minimum is 2 characters)", "Last name can't be blank", "Last name is too short (minimum is 2 characters)"]
+irb(main):012:0> reload!
+Reloading...
+=> true
+irb(main):013:0> jon = User.new
+=> #<User id: nil, first_name: nil, last_name: nil, email: nil, password: nil, age: nil, created_at: nil, updated_at: nil>
+irb(main):014:0> jon.save
+   (0.5ms)  begin transaction
+  User Exists (0.0ms)  SELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1
+   (0.0ms)  rollback transaction
+=> false
+irb(main):015:0> jon.errors.full_messages
+=> ["First name can't be blank", "First name is too short (minimum is 2 characters)", "Last name can't be blank", "Last name is too short (minimum is 2 characters)", "Email can't be blank", "Email has already been taken", "Email is invalid"]
+irb(main):016:0> jon.valid?
+  User Exists (0.5ms)  SELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1
+=> false
+irb(main):017:0>  reload!
+Reloading...
+=> true
+irb(main):018:0> hodor = User.new
+=> #<User id: nil, first_name: nil, last_name: nil, email: nil, password: nil, age: nil, created_at: nil, updated_at: nil>
+irb(main):019:0> User.all
+  User Load (0.5ms)  SELECT "users".* FROM "users"
+=> #<ActiveRecord::Relation [#<User id: 1, first_name: "Eddard", last_name: "Stark", email: "ned@ned.com", password: "password", age: 40, created_at: "2016-08-05 16:28:33", updated_at: "2016-08-05 16:34:52">, #<User id: 2, first_name: "Cercei", last_name: "Lanister", email: nil, password: nil, age: 35, created_at: "2016-08-05 16:29:51", updated_at: "2016-08-05 16:29:51">, #<User id: 3, first_name: "Jon", last_name: "Snow", email: "jon@snow.com", password: "password", age: 18, created_at: "2016-08-05 16:31:01", updated_at: "2016-08-05 16:34:13">]>
+irb(main):020:0> Hirb.enable
+=> true
+irb(main):021:0> User.all
+  User Load (0.0ms)  SELECT "users".* FROM "users"
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| id | first_... | last_name | email     | password | age | create... | update... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| 1  | Eddard    | Stark     | ned@ne... | password | 40  | 2016-0... | 2016-0... |
+| 2  | Cercei    | Lanister  |           |          | 35  | 2016-0... | 2016-0... |
+| 3  | Jon       | Snow      | jon@sn... | password | 18  | 2016-0... | 2016-0... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+3 rows in set
+irb(main):022:0> hodor[:first_name = "Hodor"]
+SyntaxError: (irb):22: syntax error, unexpected '=', expecting ']'
+hodor[:first_name = "Hodor"]
+                   ^
+(irb):22: syntax error, unexpected ']', expecting end-of-input
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:110:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:9:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:68:in `console'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands.rb:17:in `<top (required)>'
+        from bin/rails:4:in `require'
+        from bin/rails:4:in `<main>'
+irb(main):023:0> hodor[:first_name] = "Hodor"
+=> "Hodor"
+irb(main):024:0> hodor[:last_name] = "Hodor"
+=> "Hodor"
+irb(main):025:0> hodor[:age] = 32
+=> 32
+irb(main):026:0> hodor[:email] = "HODOR@HODOR.com"
+=> "HODOR@HODOR.com"
+irb(main):027:0> hodor.save
+   (0.0ms)  begin transaction
+  User Exists (0.0ms)  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('HODOR@HODOR.com') LIMIT 1
+  SQL (0.0ms)  INSERT INTO "users" ("email", "first_name", "last_name", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["email", "hodor@hodor.com"], ["first_name", "Hodor"], ["last_name", "Hodor"], ["age", 32], ["created_at", "2016-08-05 17:13:28.965541"], ["updated_at", "2016-08-05 17:13:28.965541"]]
+   (83.6ms)  commit transaction
+=> true
+irb(main):028:0> User.all
+  User Load (0.0ms)  SELECT "users".* FROM "users"
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| id | first_... | last_name | email     | password | age | create... | update... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| 1  | Eddard    | Stark     | ned@ne... | password | 40  | 2016-0... | 2016-0... |
+| 2  | Cercei    | Lanister  |           |          | 35  | 2016-0... | 2016-0... |
+| 3  | Jon       | Snow      | jon@sn... | password | 18  | 2016-0... | 2016-0... |
+| 6  | Hodor     | Hodor     | hodor@... |          | 32  | 2016-0... | 2016-0... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+4 rows in set
+irb(main):029:0> exit
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rails server
+=> Booting WEBrick
+=> Rails 4.2.5.2 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+[2016-08-05 10:32:54] INFO  WEBrick 1.3.1
+[2016-08-05 10:32:54] INFO  ruby 2.2.4 (2015-12-16) [i386-mingw32]
+[2016-08-05 10:32:54] INFO  WEBrick::HTTPServer#start: pid=7004 port=3000
+
+
+Started GET "/" for ::1 at 2016-08-05 10:33:04 -0700
+  ActiveRecord::SchemaMigration Load (0.0ms)  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 52ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+[2016-08-05 10:34:01] INFO  going to shutdown ...
+[2016-08-05 10:34:01] INFO  WEBrick::HTTPServer#start done.
+Exiting
+Terminate batch job (Y/N)? Y
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is 2471-CA53
+
+ Directory of C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project
+
+08/05/2016  09:17 AM    <DIR>          .
+08/05/2016  09:17 AM    <DIR>          ..
+08/05/2016  09:17 AM               474 .gitignore
+08/05/2016  09:17 AM    <DIR>          app
+08/05/2016  09:17 AM    <DIR>          bin
+08/05/2016  09:17 AM    <DIR>          config
+08/05/2016  09:17 AM               153 config.ru
+08/05/2016  10:13 AM    <DIR>          db
+08/05/2016  09:18 AM             1,517 Gemfile
+08/05/2016  09:18 AM             4,234 Gemfile.lock
+08/05/2016  09:17 AM    <DIR>          lib
+08/05/2016  09:19 AM    <DIR>          log
+08/05/2016  09:17 AM    <DIR>          public
+08/05/2016  09:17 AM               249 Rakefile
+08/05/2016  09:17 AM               478 README.rdoc
+08/05/2016  09:17 AM    <DIR>          test
+08/05/2016  10:32 AM    <DIR>          tmp
+08/05/2016  09:17 AM    <DIR>          vendor
+               6 File(s)          7,105 bytes
+              12 Dir(s)  373,603,233,792 bytes free
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rails g model Product name:string price:float description:text user:references
+      invoke  active_record
+      create    db/migrate/20160805173504_create_products.rb
+      create    app/models/product.rb
+      invoke    test_unit
+      create      test/models/product_test.rb
+      create      test/fixtures/products.yml
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rake db:migrate
+== 20160805173504 CreateProducts: migrating ===================================
+-- create_table(:products)
+   -> 0.0036s
+== 20160805173504 CreateProducts: migrated (0.0053s) ==========================
+
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rails c
+Loading development environment (Rails 4.2.5.2)
+irb(main):001:0> Hirb.enable
+=> true
+irb(main):002:0> User.all
+  User Load (2.5ms)  SELECT "users".* FROM "users"
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| id | first_... | last_name | email     | password | age | create... | update... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| 1  | Eddard    | Stark     | ned@ne... | password | 40  | 2016-0... | 2016-0... |
+| 2  | Cercei    | Lanister  |           |          | 35  | 2016-0... | 2016-0... |
+| 3  | Jon       | Snow      | jon@sn... | password | 18  | 2016-0... | 2016-0... |
+| 6  | Hodor     | Hodor     | hodor@... |          | 32  | 2016-0... | 2016-0... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+4 rows in set
+irb(main):003:0> User.fist.products.new
+NoMethodError: undefined method `fist' for #<Class:0x61f7b20>
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.5.2/lib/active_record/dynamic_matchers.rb:26:in `method_missing'
+        from (irb):3
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:110:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/console.rb:9:in `start'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:68:in `console'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+        from C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.5.2/lib/rails/commands.rb:17:in `<top (required)>'
+        from bin/rails:4:in `require'
+        from bin/rails:4:in `<main>'
+irb(main):004:0> User.first.products.new
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
++----+------+-------+-------------+---------+------------+------------+
+| id | name | price | description | user_id | created_at | updated_at |
++----+------+-------+-------------+---------+------------+------------+
+|    |      |       |             | 1       |            |            |
++----+------+-------+-------------+---------+------------+------------+
+1 row in set
+<Gen1", price: "199.99", description: "Used,but hey it works!")
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+   (0.0ms)  begin transaction
+  SQL (15.6ms)  INSERT INTO "products" ("name", "price", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "iPad Gen1"], ["price", 199.99], ["description", "Used,but hey it works!"], ["user_id", 1], ["created_at", "2016-08-05 17:40:01.855878"], ["updated_at", "2016-08-05 17:40:01.855878"]]
+   (124.2ms)  commit transaction
++----+-----------+--------+--------------+---------+--------------+---------------+
+| id | name      | price  | description  | user_id | created_at   | updated_at    |
++----+-----------+--------+--------------+---------+--------------+---------------+
+| 1  | iPad Gen1 | 199.99 | Used,but ... | 1       | 2016-08-0... | 2016-08-05... |
++----+-----------+--------+--------------+---------+--------------+---------------+
+1 row in set
+<Console", price:"19.99", description: "Oldie but goodie")
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+   (0.0ms)  begin transaction
+  SQL (0.0ms)  INSERT INTO "products" ("name", "price", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Wii Console"], ["price", 19.99], ["description", "Oldie but goodie"], ["user_id", 1], ["created_at", "2016-08-05 17:40:52.856569"], ["updated_at", "2016-08-05 17:40:52.856569"]]
+   (100.2ms)  commit transaction
++----+-------------+-------+--------------+---------+--------------+--------------+
+| id | name        | price | description  | user_id | created_at   | updated_at   |
++----+-------------+-------+--------------+---------+--------------+--------------+
+| 2  | Wii Console | 19.99 | Oldie but... | 1       | 2016-08-0... | 2016-08-0... |
++----+-------------+-------+--------------+---------+--------------+--------------+
+1 row in set
+<p", price:"free",description:"Old and dead. Great Doorstop")
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+   (0.0ms)  begin transaction
+  SQL (0.0ms)  INSERT INTO "products" ("name", "price", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Laptop"], ["price", 0.0], ["description", "Old and dead. Great Doorstop"], ["user_id", 1], ["created_at", "2016-08-05 17:41:40.146578"], ["updated_at", "2016-08-05 17:41:40.146578"]]
+   (133.5ms)  commit transaction
++----+--------+-------+----------------+---------+---------------+----------------+
+| id | name   | price | description    | user_id | created_at    | updated_at     |
++----+--------+-------+----------------+---------+---------------+----------------+
+| 3  | Laptop | 0.0   | Old and dea... | 1       | 2016-08-05... | 2016-08-05 ... |
++----+--------+-------+----------------+---------+---------------+----------------+
+1 row in set
+irb(main):008:0> Product.all
+  Product Load (0.5ms)  SELECT "products".* FROM "products"
++----+-------------+--------+--------------+---------+-------------+--------------+
+| id | name        | price  | description  | user_id | created_at  | updated_at   |
++----+-------------+--------+--------------+---------+-------------+--------------+
+| 1  | iPad Gen1   | 199.99 | Used,but ... | 1       | 2016-08-... | 2016-08-0... |
+| 2  | Wii Console | 19.99  | Oldie but... | 1       | 2016-08-... | 2016-08-0... |
+| 3  | Laptop      | 0.0    | Old and d... | 1       | 2016-08-... | 2016-08-0... |
++----+-------------+--------+--------------+---------+-------------+--------------+
+3 rows in set
+irb(main):009:0> User.first.products
+  User Load (1.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Product Load (0.5ms)  SELECT "products".* FROM "products" WHERE "products"."user_id" = ?  [["user_id", 1]]
++----+-------------+--------+--------------+---------+-------------+--------------+
+| id | name        | price  | description  | user_id | created_at  | updated_at   |
++----+-------------+--------+--------------+---------+-------------+--------------+
+| 1  | iPad Gen1   | 199.99 | Used,but ... | 1       | 2016-08-... | 2016-08-0... |
+| 2  | Wii Console | 19.99  | Oldie but... | 1       | 2016-08-... | 2016-08-0... |
+| 3  | Laptop      | 0.0    | Old and d... | 1       | 2016-08-... | 2016-08-0... |
++----+-------------+--------+--------------+---------+-------------+--------------+
+3 rows in set
+<roducts(name:"iPad Gen2", price:"150.29", description:"It's newer")
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  Product Load (0.0ms)  SELECT "products".* FROM "products" WHERE "products"."user_id" = ?  [["user_id", 6]]
+=> #<ActiveRecord::Associations::CollectionProxy []>
+irb(main):011:0> Product.all
+  Product Load (0.0ms)  SELECT "products".* FROM "products"
++----+-------------+--------+--------------+---------+-------------+--------------+
+| id | name        | price  | description  | user_id | created_at  | updated_at   |
++----+-------------+--------+--------------+---------+-------------+--------------+
+| 1  | iPad Gen1   | 199.99 | Used,but ... | 1       | 2016-08-... | 2016-08-0... |
+| 2  | Wii Console | 19.99  | Oldie but... | 1       | 2016-08-... | 2016-08-0... |
+| 3  | Laptop      | 0.0    | Old and d... | 1       | 2016-08-... | 2016-08-0... |
++----+-------------+--------+--------------+---------+-------------+--------------+
+3 rows in set
+irb(main):012:0> User.last
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| id | first_... | last_name | email     | password | age | create... | update... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+| 6  | Hodor     | Hodor     | hodor@... |          | 32  | 2016-0... | 2016-0... |
++----+-----------+-----------+-----------+----------+-----+-----------+-----------+
+1 row in set
+irb(main):013:0> User.last.products
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  Product Load (0.0ms)  SELECT "products".* FROM "products" WHERE "products"."user_id" = ?  [["user_id", 6]]
+=> #<ActiveRecord::Associations::CollectionProxy []>
+irb(main):014:0> User.first.products
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Product Load (0.0ms)  SELECT "products".* FROM "products" WHERE "products"."user_id" = ?  [["user_id", 1]]
++----+-------------+--------+--------------+---------+-------------+--------------+
+| id | name        | price  | description  | user_id | created_at  | updated_at   |
++----+-------------+--------+--------------+---------+-------------+--------------+
+| 1  | iPad Gen1   | 199.99 | Used,but ... | 1       | 2016-08-... | 2016-08-0... |
+| 2  | Wii Console | 19.99  | Oldie but... | 1       | 2016-08-... | 2016-08-0... |
+| 3  | Laptop      | 0.0    | Old and d... | 1       | 2016-08-... | 2016-08-0... |
++----+-------------+--------+--------------+---------+-------------+--------------+
+3 rows in set
+<en2", price:"159.99", description:"New and ready to rock")
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+   (0.0ms)  begin transaction
+  SQL (0.0ms)  INSERT INTO "products" ("name", "price", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "iPad Gen2"], ["price", 159.99], ["description", "New and ready to rock"], ["user_id", 6], ["created_at", "2016-08-05 17:44:47.282567"], ["updated_at", "2016-08-05 17:44:47.282567"]]
+   (101.2ms)  commit transaction
++----+-----------+--------+--------------+---------+--------------+---------------+
+| id | name      | price  | description  | user_id | created_at   | updated_at    |
++----+-----------+--------+--------------+---------+--------------+---------------+
+| 4  | iPad Gen2 | 159.99 | New and r... | 6       | 2016-08-0... | 2016-08-05... |
++----+-----------+--------+--------------+---------+--------------+---------------+
+1 row in set
+irb(main):016:0> User.last.products
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  Product Load (0.0ms)  SELECT "products".* FROM "products" WHERE "products"."user_id" = ?  [["user_id", 6]]
++----+-----------+--------+--------------+---------+--------------+---------------+
+| id | name      | price  | description  | user_id | created_at   | updated_at    |
++----+-----------+--------+--------------+---------+--------------+---------------+
+| 4  | iPad Gen2 | 159.99 | New and r... | 6       | 2016-08-0... | 2016-08-05... |
++----+-----------+--------+--------------+---------+--------------+---------------+
+1 row in set
+irb(main):017:0> Product.all
+  Product Load (0.0ms)  SELECT "products".* FROM "products"
++----+-------------+--------+--------------+---------+-------------+--------------+
+| id | name        | price  | description  | user_id | created_at  | updated_at   |
++----+-------------+--------+--------------+---------+-------------+--------------+
+| 1  | iPad Gen1   | 199.99 | Used,but ... | 1       | 2016-08-... | 2016-08-0... |
+| 2  | Wii Console | 19.99  | Oldie but... | 1       | 2016-08-... | 2016-08-0... |
+| 3  | Laptop      | 0.0    | Old and d... | 1       | 2016-08-... | 2016-08-0... |
+| 4  | iPad Gen2   | 159.99 | New and r... | 6       | 2016-08-... | 2016-08-0... |
++----+-------------+--------+--------------+---------+-------------+--------------+
+4 rows in set
+irb(main):018:0> ^C
+irb(main):018:0> exit
+Terminate batch job (Y/N)? Y
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is 2471-CA53
+
+ Directory of C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project
+
+08/05/2016  09:17 AM    <DIR>          .
+08/05/2016  09:17 AM    <DIR>          ..
+08/05/2016  09:17 AM               474 .gitignore
+08/05/2016  09:17 AM    <DIR>          app
+08/05/2016  09:17 AM    <DIR>          bin
+08/05/2016  09:17 AM    <DIR>          config
+08/05/2016  09:17 AM               153 config.ru
+08/05/2016  10:44 AM    <DIR>          db
+08/05/2016  09:18 AM             1,517 Gemfile
+08/05/2016  09:18 AM             4,234 Gemfile.lock
+08/05/2016  09:17 AM    <DIR>          lib
+08/05/2016  09:19 AM    <DIR>          log
+08/05/2016  09:17 AM    <DIR>          public
+08/05/2016  09:17 AM               249 Rakefile
+08/05/2016  09:17 AM               478 README.rdoc
+08/05/2016  09:17 AM    <DIR>          test
+08/05/2016  10:32 AM    <DIR>          tmp
+08/05/2016  09:17 AM    <DIR>          vendor
+               6 File(s)          7,105 bytes
+              12 Dir(s)  373,597,990,912 bytes free
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rails generate migration AddCategoryToProducts
+      invoke  active_record
+      create    db/migrate/20160805174930_add_category_to_products.rb
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rake db:migrate
+== 20160805174930 AddCategoryToProducts: migrating ============================
+-- add_column(:products, :category, :string)
+   -> 0.0398s
+== 20160805174930 AddCategoryToProducts: migrated (0.0418s) ===================
+
+
+C:\Users\Adam\Desktop\Mint\RUBY\Rails\test_project>rails c
+Loading development environment (Rails 4.2.5.2)
+irb(main):001:0> Hirb.enable
+=> true
+irb(main):002:0> Product.all
+  Product Load (2.0ms)  SELECT "products".* FROM "products"
++----+-----------+--------+-----------+---------+----------+-----------+----------+
+| id | name      | price  | descri... | user_id | creat... | update... | category |
++----+-----------+--------+-----------+---------+----------+-----------+----------+
+| 1  | iPad Gen1 | 199.99 | Used,b... | 1       | 2016-... | 2016-0... |          |
+| 2  | Wii Co... | 19.99  | Oldie ... | 1       | 2016-... | 2016-0... |          |
+| 3  | Laptop    | 0.0    | Old an... | 1       | 2016-... | 2016-0... |          |
+| 4  | iPad Gen2 | 159.99 | New an... | 6       | 2016-... | 2016-0... |          |
++----+-----------+--------+-----------+---------+----------+-----------+----------+
+4 rows in set
+irb(main):003:0>

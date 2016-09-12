@@ -1,0 +1,15 @@
+<label>First Name:</label>
+<p>
+  <%= @show_user.first_name %>
+</p>
+<label>Last Name:</label>
+<p>
+  <%= @show_user.last_name %>
+</p>
+<label>Email Address:</label>
+<p>
+  <%= @show_user.email %>
+</p>
+
+<a href="/edit/<%= @show_user.id %>">Edit</a> |
+<a href="/users">Back</a>

@@ -1,0 +1,14 @@
+<div class="body">
+  <form action="/create" method="post">
+    <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+    <p>Your Name:
+    <input type="text" name="name" /></p>
+    <p>Dojo Location:
+    <input type="text" name="location" /></p>
+    <p>Favorite Language:
+    <input type="text" name="language" /></p>
+    <p>Comments:
+    <textarea name="comment"></textarea></p>
+    <input type="submit" value="Submit" />
+  </form>
+</div>

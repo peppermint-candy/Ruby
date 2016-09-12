@@ -1,0 +1,31 @@
+<h1>Let's click the items</h1>
+<table>
+  <thead>
+    <th>
+      Item
+    </th>
+    <th>
+      Count
+    </th>
+    <th>
+      Order
+    </th>
+  </thead>
+  <tbody>
+    <% @items.each do |i| %>
+    <tr>
+      <td><%= i.name %></td>
+      <td><%= i.count %></td>
+      <td><a href="/count/<%= i.id %>">Click</a></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br />
+<br />
+<form action="/items" method="post">
+  <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+  <input type="text" name="item[name]" />
+  <input type="submit" value="Create"  />
+</form>

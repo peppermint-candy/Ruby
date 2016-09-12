@@ -1,0 +1,16 @@
+<h1>Login</h1>
+<form action="/session" method="post">
+<input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+  <p>
+    <label>Email:</label>
+    <input type="email" name="email" />
+  </p>
+  <p>
+    <label>Password:</label>
+    <input type="password" name="password"  />
+  </p>
+  <p>
+    <a href="/">Click here to register</a> |
+    <input type="submit" value="Login" />
+  </p>
+</form>

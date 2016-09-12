@@ -1,0 +1,20 @@
+<h1>Welcome <%= @user.name %></h1>
+<p>
+  <a href="/users/<%= @user.id %>/edit">Edit Profile</a>
+</p>
+<div>
+  <form action="/secrets" method="post">
+    <p>
+      <label for="new_secret">New Secret</label>
+      <textarea id="new_secret"></textarea>
+    </p>
+    <input type="submit" value="Create Secret"> 
+  </form>
+</div>
+<div>
+  <h3>Secrets</h3>
+  <% @secrets.each do |secret| %>
+    <p><%= secret.content %></p>
+  <hr>
+  <% end %>
+</div>

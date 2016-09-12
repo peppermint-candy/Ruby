@@ -1,0 +1,15 @@
+// Place all the styles related to the Times controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  background-color: lightblue;
+}
+
+div.body {
+  width: 500px;
+  height:300px;
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}

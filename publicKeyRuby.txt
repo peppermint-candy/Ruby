@@ -1,0 +1,5 @@
+Public_key_location C:\Users\Adam/ .ssh/id_rsh.pub
+
+public_key_contents: 
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDjNIk9M7g+GsjZ8BoGtjVbgEqH3/H9cdcr5mjFn71fjI9NN0Jn6RzrdAm0H+4EWdUBxT52LBqKE4mmUdbeMdEsgmfrjYpv5QRVZbeG9oL+KLJkcomSECVblZYJx51h6IZk6mskhWhFJDND/vaeVbx4eZJGOBZ+ztruqlceoDo4WO/vDXyuEOFYLal8WClJcvqZ4oFCtghRNdbpZnZWxWxcNsNzRV7PZyQcxmVv9jxfcDrRO05TUi3amoAKUE5P6pBbeLTwg+XjeqdbnvBx0j9Onx/bHL+G+6lJjO0OfdtqpBu97H+u+C26R8p41JPrjMXW4V9FZ+z2R4YfSp+R1UF Mint <273greenst@gmail.com>

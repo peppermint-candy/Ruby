@@ -1,0 +1,70 @@
+<div class="box">
+  <h1>Lender</h1>
+  <form action="/lenders" method="post">
+  <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+
+    <p>
+      <label>First Name:</label>
+      <input type="text" name="first_name" />
+    </p>
+    <p>
+      <label>Last Name:</label>
+      <input type="text" name="last_name" />
+    </p>
+    <p>
+      <label>Email:</label>
+      <input type="email" name="email" />
+    </p>
+    <p>
+      <label>Password:</label>
+      <input type="password" name="password" />
+    </p>
+    <p>
+      <label>Money:</label>
+      <input type="number" name="money" />
+    </p>
+    <p>
+      <a href="/online_lending/login">Already a member?</a> |
+      <input type="submit" value="Register" />
+    </p>
+  </form>
+</div>
+<div class="box">
+  <h1>Borrower</h1>
+  <form action="/borrowers" method="post">
+    <input type="hidden" name="authenticity_token" value="form_authenticity_token" />
+    <p>
+      <label>First Name:</label>
+      <input type="text" name="first_name" />
+    </p>
+    <p>
+      <label>Last Name:</label>
+      <input type="text" name="last_name" />
+    </p>
+    <p>
+      <label>Email:</label>
+      <input type="email" name="email" />
+    </p>
+    <p>
+      <label>Password:</label>
+      <input type="password" name="password" />
+    </p>
+    <p>
+      <label>Need Money For:</label>
+      <input type="text" name="need" />
+    </p>
+    <p>
+      <label>description:</label>
+      <input type="text" name="desc" />
+    </p>
+    <p>
+      <label>Amount Needed:</label>
+      <input type="number" name="amount" />
+    </p>
+    <p>
+      <a href="/online_lending/login">Already a member?</a> |
+      <input type="submit" value="Register" />
+    </p>
+  </form>
+</div>
+</div>

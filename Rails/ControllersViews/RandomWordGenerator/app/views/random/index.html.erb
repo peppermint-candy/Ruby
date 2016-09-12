@@ -1,0 +1,10 @@
+<div class="body">
+  <h3>Random Word (attempt # <%= session[:count] %>)</h3>
+  <div class="random">
+    <h2><%= session[:random_string] %></h2>
+  </div>
+
+  <form action="/update" method="get">
+    <input type="submit" value="Generate" />
+  </form>
+</div>

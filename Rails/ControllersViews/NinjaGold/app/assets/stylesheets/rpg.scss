@@ -1,0 +1,44 @@
+// Place all the styles related to the Rpg controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+div.ct {
+  width: 800px;
+  height: 680px;
+  border: 2px solid black;
+  vertical-align: top;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: gold;
+}
+
+div.box {
+  width: 180px;
+  height: 180px;
+  vertical-align: top;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+div.bar {
+  width: 650px;
+  min-height: 100px;
+  vertical-align: top;
+  padding: 20px;
+}
+
+div.activity {
+  width: 720px;
+  height: 200px;
+  overflow-y: scroll;
+  padding-left: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: white;
+
+}

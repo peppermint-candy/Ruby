@@ -1,0 +1,35 @@
+<!-- <form action="/sessions/new" method="get">
+  <input type="hidden" name="form_authenticity" value="form_authenticity_token" />
+  <button type="submit" value="Log Out"></button>
+</form> -->
+
+<h1> Hello <%= @user.name %> </h1>
+<% if @user.secrets %>
+<% for secret in @user.secrets %>
+<h2>My secret</h2>
+<ul>
+  <li><%= secret.content %></li>
+  <li><%= secret.id %></li>
+  <li><%= secret.likes.count %> likes</li>
+  <li>
+    <form action="/secrets/<%= secret.id %>" method="post">
+      <input type="hidden" name="authenticity_token" value="form_authenticity_token" />
+      <input type="hidden" name="_method" value="delete" />
+      <button type="submit">Delete</button>
+    </form>
+  </li>
+</ul>
+<% end %>
+<% end %>
+
+<form action="/secrets" method="post">
+  <input type="hidden" name="authenticity_token" value="form_authenticity_token" />
+  <p>
+    <label for="new secret">New Secret</label>
+    <input id="new secret" type="string" name="content" />
+  </p>
+  <p>
+    <input type="submit" value="Create Secret" />
+  </p>
+</form>
+<a href="/users/<%= @user.id %>/edit">Edit Profile</a>

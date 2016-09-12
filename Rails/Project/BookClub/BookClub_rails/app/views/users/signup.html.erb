@@ -1,0 +1,39 @@
+<html id="index">
+
+<div id="signup">
+
+  <h2>Welcome to TheClub</h2>
+
+  <form action="/users" method="post">
+    <input  type="hidden" name="authenticity_token" value= "<%= form_authenticity_token  %>" />
+
+    <label><h3>First Name :</h3></label>
+    <input type="text" name="first_name" />
+    <br />
+
+    <label><h3>Last Name :</h3></label>
+    <input type="text" name="last_name"  />
+    <br />
+
+    <label><h3>Email :</h3></label>
+    <input type="email" name="email" />
+    <br />
+
+    <label><h3>Password :</h3></label>
+    <input type="password" name="password"  />
+    <br />
+
+    <label><h3>Confirm Password :</h3></label>
+    <input type="password" name="cpw"  />
+    <br />
+
+    <button>SIGN UP</button>
+  </form>
+
+  <p>
+    Already have an account?
+    <a href="/">Click here</a>
+  </p>
+
+</div>
+</html>

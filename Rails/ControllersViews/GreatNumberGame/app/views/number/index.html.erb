@@ -1,0 +1,48 @@
+<div class="body">
+  <h2>Welcome to the Great Number Game!</h2>
+  <p>
+    I am thinking of a number between 1 and 100
+  </p>
+  <p>
+    Take a guess!
+  </p>
+
+  <% if flash[:take_guess] %>
+
+    <form action="/check" method="post">
+      <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+      <input type="number" name="guess" min="1" max="100" required />
+      <input type="submit" value="Submit" />
+    </form>
+
+  <% elsif flash[:too_high] %>
+    <div class="wrong">
+      <h2><%= flash[:too_high] %></h2>
+    </div>
+    <form action="/check" method="post">
+      <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+      <input type="number" name="guess" min="1" max="100" required />
+      <input type="submit" value="Submit" />
+    </form>
+  <% elsif flash[:too_low]%>
+    <div class="wrong">
+      <h2><%= flash[:too_low] %></h2>
+    </div>
+    <form action="/check" method="post">
+      <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+      <input type="number" name="guess" min="1" max="100" required />
+      <input type="submit" value="Submit" />
+    </form>
+  <% elsif flash[:correct] %>
+    <div class="correct">
+      <h2><%= flash[:correct] %></h2>
+      <form action="/reset" method="get">
+        <input type="submit" value="Play Again" />
+      </form>
+    </div>
+  <% else %>
+    <%= flash[:error] %>
+  <% end %>
+
+
+</div>

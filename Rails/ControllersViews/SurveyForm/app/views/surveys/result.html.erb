@@ -1,0 +1,22 @@
+<div class="header">
+  <%= flash[:success] %>
+</div>
+<div class="body">
+  <h3>Submitted Information</h3>
+  <h5><label>Name:</label>
+    <p><%= session[:name] %></p>
+  </h5>
+  <h5><label>Dojo Location:</label>
+    <p><%= session[:location]%></p>
+  </h5>
+  <h5><label>Favorite Language:</label>
+    <p><%= session[:language] %></p>
+  </h5>
+  <h5><label>Comment:</label>
+    <p><%= session[:comment] %></p>
+  </h5>
+
+  <form action="/destroy" method="get">
+    <input type="submit" value="Go Back" />
+  </form>
+</div>

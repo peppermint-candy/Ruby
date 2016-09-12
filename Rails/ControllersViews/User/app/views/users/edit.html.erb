@@ -1,0 +1,6 @@
+<h1>Edit User</h1>
+<form action="/users/<%= @edituser.id %>/edit" method="post">
+  <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+  <input type="text" name="editname" />
+  <input type="submit" value="Edit" />
+</form>
